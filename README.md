@@ -9,8 +9,11 @@ The provided scripts cover the key steps to generate the representative graphs s
 Main Contents:
 
 CS_demo_code.m: Main script that runs the full reconstruction and visualization workflow.
+
 CS demo sparse FOV.mat: Example dataset from a sparsely connected field of view.
+
 CS demo dense FOV.mat: Example dataset from a densely connected field of view.
+
 
 Description
 
