@@ -1,15 +1,18 @@
 # CS-connectivity
 
-Example scripts for compressive-sensing-based parallel connectivity mapping.
+# Example Scripts for Compressive-Sensing-Based Parallel Connectivity Mapping
 
-This repository provides example code for performing **compressive sensing (CS)**-based connectivity reconstruction within the framework of **parallel connectivity mapping**, as described in the article:
+This repository provides example code for performing **compressive sensing (CS)**-based connectivity reconstruction on experimental data, within the framework of **parallel connectivity mapping**, as described in the article:
 
 > **High-throughput synaptic connectivity mapping using in vivo two-photon holographic optogenetics and compressive sensing**  
-> *Chen et al., Nature Neuroscience, 2025, DOI: 10.1038/s41593-025-02024-y
+> *Chen et al.,* *Nature Neuroscience* (2025)  
+> DOI: [10.1038/s41593-025-02024-y](https://doi.org/10.1038/s41593-025-02024-y)
+
 
 ---
 
 ## Main Contents
+The 'CS_demo.zip' file mainly includes: 
 
 - `CS_demo_code.m`: Main script that runs the full reconstruction and visualization workflow.
 - `CS demo sparse FOV.mat`: Example dataset from a sparsely connected field of view.
@@ -29,6 +32,9 @@ The script performs the following:
 4. Plots a summary graph and generates a confusion matrix for evaluation.
 
 ---
+
+Additional code used in the same article—for performing and simulating CS-based mapping on model networks—is available at:  
+🔗 [https://github.com/Oweiss-Lab/Compressed-Sensing-Connectivity-Mapping](https://github.com/Oweiss-Lab/Compressed-Sensing-Connectivity-Mapping)
 
 ## Requirements
 
